@@ -1,0 +1,8 @@
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'VFWidget_Example' do
+  pod 'VFWidget', :path => '../'
+
+end

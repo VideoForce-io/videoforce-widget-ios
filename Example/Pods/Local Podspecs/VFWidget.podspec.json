@@ -1,0 +1,33 @@
+{
+  "name": "VFWidget",
+  "version": "1.0",
+  "summary": "Video call widget from VideoForce",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/m-keys/VFWidget",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "VideoForce": "info@videoforce.ru"
+  },
+  "source": {
+    "git": "https://github.com/VideoForce-io/videoforce-widget-ios.git",
+    "tag": "1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "swift_versions": [
+    "5.0",
+    "5.1",
+    "5.2"
+  ],
+  "source_files": "VFWidget/Classes/**/*",
+  "dependencies": {
+    "WKWebViewRTC": [
+      "~> 0.4.0"
+    ]
+  },
+  "swift_version": "5.2"
+}

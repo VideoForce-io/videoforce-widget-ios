@@ -1,0 +1,6 @@
+framework module VFWidget {
+  umbrella header "VFWidget-umbrella.h"
+
+  export *
+  module * { export * }
+}

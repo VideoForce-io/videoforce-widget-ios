@@ -1,0 +1,27 @@
+PODS:
+  - GoogleWebRTC (1.1.29229)
+  - VFWidget (1.0):
+    - WKWebViewRTC (~> 0.4.0)
+  - WKWebViewRTC (0.4.0):
+    - GoogleWebRTC (= 1.1.29229)
+
+DEPENDENCIES:
+  - VFWidget (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - GoogleWebRTC
+    - WKWebViewRTC
+
+EXTERNAL SOURCES:
+  VFWidget:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GoogleWebRTC: ffbf2dca3bdef0fbeebcff497e0a659bd69761c8
+  VFWidget: 25b9a7dcdce5da3a972755ace5ebb121f5b0de40
+  WKWebViewRTC: 52a6440ea6fbc8e220802a8cc7ace79ece32cf52
+
+PODFILE CHECKSUM: 5dcd04c1c231b7b7aebfbd9a048cb305f3625020
+
+COCOAPODS: 1.11.2

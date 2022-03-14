@@ -1,0 +1,6 @@
+framework module WKWebViewRTC {
+  umbrella header "WKWebViewRTC-umbrella.h"
+
+  export *
+  module * { export * }
+}
